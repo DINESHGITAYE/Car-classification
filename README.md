@@ -9,3 +9,4 @@ This is a pretrained model on thousands of images. So we can use the weights of 
 2. We have to convert images into RGB format.
 3. We have to add first layer and output layer manually
 4. Do not trained the model weights again because its already have trained weights ('imagenet')
+5. Rescale the images by dividing each pixel by 255 like this: 1./255. so that every image have the pixel range between 0 to 1.
